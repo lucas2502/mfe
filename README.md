@@ -85,3 +85,48 @@ ui/ → Design system compartilhado
 auth/ → Módulo de autenticação reutilizável
 utils/ → Funções utilitárias
 ```
+
+
+## Abordagem de Mercado para Micro Frontends com SSR em 2025
+
+### Como grandes empresas têm adotado MFEs com SSR?
+
+1. **Monorepos com Turborepo / Nx + Remote Components SSR (Next.js, Nuxt 3, SvelteKit)**
+   - Padrão para empresas maduras.
+   - Aplicações divididas em vários pacotes ou apps (MFEs) dentro de um monorepo.
+   - Cada micro frontend é um app completo com SSR, geralmente usando Next.js ou frameworks similares.
+   - Compartilhamento de componentes via pacotes npm locais ou remotos (Remote Components).
+   - O app host gerencia o layout e roteamento SSR.
+   - Exemplos de uso real: Spotify, Shopify, Zalando.
+
+2. **Next.js App Router + Edge Functions + Incremental Static Regeneration (ISR)**
+   - Uso de rotas dinâmicas SSR e ISR para alta performance.
+   - MFEs integrados via rotas, APIs REST ou GraphQL.
+   - Middleware e edge workers para orquestração e autenticação.
+
+3. **Module Federation (Webpack) com SSR**
+   - Utilizado mais em provas de conceito.
+   - Raramente adotado em produção em larga escala devido a dificuldades técnicas.
+   - Pouca compatibilidade com frameworks modernos, manutenção complexa.
+
+4. **Single SPA (Client-side) + SSR parcial**
+   - MFEs gerenciados client-side.
+   - SSR aplicado no nível da página principal ou de forma isomórfica em cada app.
+   - Compromisso entre MFEs e SSR, mas não ideal para SSR total.
+
+### Por que essas abordagens são as mais usadas?
+
+- Escalabilidade e organização para times grandes.
+- Melhor manutenção e menos hacks técnicos.
+- Performance superior e melhor SEO via SSR nativo.
+- Ecossistema moderno com suporte a SSR e Remote Components está em evolução constante.
+
+### Conclusão
+
+Grandes empresas preferem **monorepos com Remote Components em frameworks SSR** ao invés de usar Module Federation com SSR, por serem soluções mais robustas e maduras.
+
+---
+
+Se você busca ajuda para estruturar seu projeto com essa arquitetura moderna, entre em contato!
+
+
