@@ -40,15 +40,6 @@ Apesar de `module federation` ser uma solução muito poderosa para MFEs em SPA,
 
 ---
 
-### ✅ **3. Single SPA + Isolamento de Rotas (apenas CSR)**
-
-> Útil se **SSR não for obrigatório**.
-
-- Cada app MFE renderiza em rota isolada (`/app1`, `/app2`) e é carregado dinamicamente.
-- Pode usar React, Vue, Angular simultaneamente.
-- SSR não suportado oficialmente.
-
----
 
 ## 🤯 Por que é tão difícil MFEs com SSR?
 
