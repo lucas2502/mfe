@@ -1,0 +1,48 @@
+{
+  "__virtual___federation_fn_import-cf22a55c.js": {
+    "file": "assets/_virtual___federation_fn_import-cf22a55c.js"
+  },
+  "_index-77c4be79.js": {
+    "file": "assets/index-77c4be79.js"
+  },
+  "_index-c2bab35e.js": {
+    "file": "assets/index-c2bab35e.js",
+    "imports": [
+      "_index-77c4be79.js"
+    ]
+  },
+  "index.html": {
+    "file": "assets/index-1ad37fda.js",
+    "imports": [
+      "__virtual___federation_fn_import-cf22a55c.js",
+      "_index-77c4be79.js",
+      "_index-c2bab35e.js"
+    ],
+    "isEntry": true,
+    "src": "index.html"
+  },
+  "node_modules/react-dom/index.js?commonjs-entry": {
+    "file": "assets/__federation_shared_react-dom-fcd46ffe.js",
+    "imports": [
+      "_index-c2bab35e.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/react-dom/index.js?commonjs-entry"
+  },
+  "node_modules/react-router-dom/dist/index.js": {
+    "file": "assets/__federation_shared_react-router-dom-9f2e7f0f.js",
+    "imports": [
+      "__virtual___federation_fn_import-cf22a55c.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/react-router-dom/dist/index.js"
+  },
+  "node_modules/react/index.js?commonjs-entry": {
+    "file": "assets/__federation_shared_react-85b99322.js",
+    "imports": [
+      "_index-77c4be79.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/react/index.js?commonjs-entry"
+  }
+}

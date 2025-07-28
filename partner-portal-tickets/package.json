@@ -1,0 +1,43 @@
+{
+  "name": "partner-portal-tickets",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build:client": "cross-env BUILD_TARGET=client vite build",
+    "build:ssr": "cross-env BUILD_TARGET=ssr vite build",
+    "build": "npm run build:client && npm run build:ssr",
+    "serve:ssr": "node dist/server/entry-server.js"
+  },
+  "dependencies": {
+    "@auth/core": "^0.40.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.2.0",
+    "axios": "^1.11.0",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router": "^6.30.1",
+    "react-router-dom": "^6.23.1"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-federation": "^1.4.1",
+    "@testing-library/react": "^16.3.0",
+    "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.1.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^4.7.0",
+    "cross-env": "^10.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vite": "^4.5.14",
+    "vite-plugin-federation": "^0.0.1"
+  }
+}

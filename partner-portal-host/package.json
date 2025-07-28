@@ -1,0 +1,33 @@
+{
+  "name": "partner-portal-host",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build:client": "cross-env BUILD_TARGET=client vite build",
+    "build:ssr": "cross-env BUILD_TARGET=ssr vite build",
+    "build": "npm run build:client && npm run build:ssr"
+  },
+  "dependencies": {
+    "@auth/core": "^0.40.0",
+    "@types/express": "^5.0.3",
+    "dotenv": "^17.2.1",
+    "express": "^4.21.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.23.1",
+    "react-router-dom": "^6.23.1",
+    "vite-plugin-federation": "^0.0.1"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-federation": "^1.4.1",
+    "@types/node": "^24.1.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^4.7.0",
+    "cross-env": "^10.0.0",
+    "typescript": "^5.8.3",
+    "vite": "^4.5.14"
+  }
+}

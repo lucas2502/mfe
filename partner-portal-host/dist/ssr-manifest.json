@@ -1,0 +1,38 @@
+{
+  "\u0000/Users/lucasgoncalves/Downloads/partner-portal-full/partner-portal-host/node_modules/react-dom/cjs/react-dom.production.min.js?commonjs-exports": [
+  ],
+  "\u0000/Users/lucasgoncalves/Downloads/partner-portal-full/partner-portal-host/node_modules/react-dom/index.js?commonjs-module": [
+  ],
+  "\u0000/Users/lucasgoncalves/Downloads/partner-portal-full/partner-portal-host/node_modules/react/cjs/react.production.min.js?commonjs-exports": [
+    "/assets/index-77c4be79.js"
+  ],
+  "\u0000/Users/lucasgoncalves/Downloads/partner-portal-full/partner-portal-host/node_modules/react/index.js?commonjs-module": [
+    "/assets/index-77c4be79.js"
+  ],
+  "\u0000/Users/lucasgoncalves/Downloads/partner-portal-full/partner-portal-host/node_modules/scheduler/cjs/scheduler.production.min.js?commonjs-exports": [
+  ],
+  "\u0000/Users/lucasgoncalves/Downloads/partner-portal-full/partner-portal-host/node_modules/scheduler/index.js?commonjs-module": [
+  ],
+  "\u0000commonjsHelpers.js": [
+    "/assets/index-77c4be79.js"
+  ],
+  "node_modules/react-dom/cjs/react-dom.production.min.js": [
+  ],
+  "node_modules/react-dom/index.js": [
+  ],
+  "node_modules/react-dom/index.js?commonjs-entry": [
+  ],
+  "node_modules/react/cjs/react.production.min.js": [
+    "/assets/index-77c4be79.js"
+  ],
+  "node_modules/react/index.js": [
+    "/assets/index-77c4be79.js"
+  ],
+  "node_modules/react/index.js?commonjs-entry": [
+    "/assets/index-77c4be79.js"
+  ],
+  "node_modules/scheduler/cjs/scheduler.production.min.js": [
+  ],
+  "node_modules/scheduler/index.js": [
+  ]
+}
