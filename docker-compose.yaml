@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  shell:
+    build: ./repo-shell-app
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./repo-shell-app:/app
+    # command: npm start
+
+  mfe_a:
+    build: ./repo-mfe-a
+    ports:
+      - "3001:3000"
+    volumes:
+      - ./repo-mfe-a:/app
+    # command: npm start
+
+  mfe_b:
+    build: ./repo-mfe-b
+    ports:
+      - "3002:3000"
+    volumes:
+      - ./repo-mfe-b:/app
+    # command: npm start

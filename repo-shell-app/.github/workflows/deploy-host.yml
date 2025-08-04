@@ -1,0 +1,17 @@
+name: Deploy Host App
+on:
+  push:
+    paths:
+      - "apps/host-app/**"
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+      - run: cd apps/host-app && npm install && npm run build
+      - run: echo "Deploy logic for host app here (e.g. Vercel CLI, Docker push)"

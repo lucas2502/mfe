@@ -1,0 +1,4 @@
+[
+  { "path": "mfe-a", "remote": "mfe_a", "component": "AppA" },
+  { "path": "mfe-b", "remote": "mfe_b", "component": "AppB" }
+]
